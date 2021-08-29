@@ -14,7 +14,7 @@
 
 # 区分不同源码
 case "${OP_Maintainer}/${OP_REPO_NAME}:${OP_BRANCH}" in
-coolsnowwolf/lede:master)
+Lienol/Lienol:master)
 	AddPackage git kenzo openwrt-packages kenzok8 master
 	AddPackage git small small kenzok8 master
 ;;
