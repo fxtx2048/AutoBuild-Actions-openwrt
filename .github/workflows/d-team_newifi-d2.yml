@@ -11,9 +11,10 @@ on:
   repository_dispatch:
   workflow_dispatch:
     inputs:
-      ip_addr:
-        description: '固件 IP 地址 [可选]'
-        default: ''
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false
 ### END
 
   #push:
