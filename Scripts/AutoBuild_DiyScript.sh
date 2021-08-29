@@ -4,7 +4,7 @@
 
 Diy_Core() {
 
-	Author=Hyy2001
+	Author=Fxtx
 	Banner_Title="Powered by AutoBuild-Actions"
 	Default_LAN_IP=192.168.10.1
 
